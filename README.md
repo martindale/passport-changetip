@@ -8,8 +8,8 @@ $ npm install passport-changetip
 ```
 
 ## Usage
-First, [acquire a ChangeTip Application ID and Secret]().  You'll then need to
-configure your strategy:
+First, [acquire a ChangeTip Application ID and Secret][register].  You'll then
+need to configure your strategy:
 
 ```javascript
 var ChangeTipStrategy = require('passport-changetip').Strategy;
@@ -37,3 +37,5 @@ app.get('/auth/changetip/callback', passport.authenticate('changetip', { failure
   res.redirect('/');
 });
 ```
+
+[register]: https://www.changetip.com/o/applications/register/
