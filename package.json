@@ -1,6 +1,6 @@
 {
   "name": "passport-changetip",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Passport strategy for ChangeTip",
   "main": "./lib/oauth2.js",
   "dependencies": {
