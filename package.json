@@ -1,0 +1,29 @@
+{
+  "name": "passport-changetip",
+  "version": "0.0.0",
+  "description": "Passport strategy for ChangeTip",
+  "main": "./lib/oauth2.js",
+  "dependencies": {
+    "passport-oauth2": "^1.1.2"
+  },
+  "devDependencies": {
+    "vows": "^0.8.0"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/martindale/passport-changetip.git"
+  },
+  "keywords": [
+    "auth",
+    "oauth",
+    "oauth2",
+    "changetip",
+    "passport",
+    "oauth2"
+  ],
+  "author": "Eric Martindale",
+  "license": "MIT"
+}
